@@ -1,11 +1,13 @@
 *{
     color: #ffffff;
-    background-color: #000;
+    
     list-style: none; 
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
+body{
+    background:black;
 a{
     text-decoration: none;
 }
@@ -142,6 +144,7 @@ h1{
     box-sizing: border-box;
     margin-top: -600px;
 z-index: 200;  
+    background:none;
     background-color: transparent;
     margin-left: 70px;
     
