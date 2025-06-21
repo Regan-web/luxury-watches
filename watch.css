@@ -8,6 +8,7 @@
 }
 body{
     background:black;
+    overflow:hidden;
 a{
     text-decoration: none;
 }
@@ -190,12 +191,7 @@ z-index: 200;
     font-size: larger;
 }
 
-html, body {
-    overflow-x: hidden;
-    overflow-y: hidden;
-  
-    
-}
+
 
 @media(max-width : 480px) {
     
