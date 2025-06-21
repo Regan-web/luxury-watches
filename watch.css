@@ -14,6 +14,9 @@ a{
 a:hover{
     border-bottom: 1px solid #ffffff;
 }
+    button{
+        background-color:black;
+    }
 header{
     display: flex;
     justify-content: space-evenly;
