@@ -1,0 +1,333 @@
+*{
+    color: #ffffff;
+    background-color: #000;
+    list-style: none; 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 1px solid #ffffff;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+    
+    
+    position: fixed;
+}
+.firmname{
+    position: absolute;
+    left: 1%;
+    font-size:40px;
+    border: none;
+    
+}
+.first-links{
+    font-size: 20px;
+    margin-left: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 80px;   
+}
+
+
+#home{
+    width: 100%;
+    height:auto;
+    position: absolute;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.hero-img{
+    
+    width: 800px;
+    height: auto;
+    margin-top: 100px;
+    border:none;
+    display: absolute;
+    margin-right: -50px;
+    margin-top: -1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    
+    
+    
+}
+.product-img{
+    width:850px;
+    height:auto;
+    object-fit: cover;
+    transform:scale(0.65);
+    border:none;
+    margin-top: -80px;
+    
+    
+}
+.button1{
+    box-shadow: 0 0 8px blue;
+    color: aqua;
+    margin-inline: 100px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px double blue;
+}
+.button1:hover{
+    text-decoration: 1px solid #1e7eef ;
+    transform: scaleX(1.09);
+    font-size: 12px;    
+}
+.CTA-button:hover{
+    text-decoration: 1px solid #1e7eef ;
+    transform: scaleX(1.09);
+    font-size: 12px;
+    
+}
+.hero1{
+   font-size: 20px;
+    margin-left: 45px;
+    margin-top: 49px;   
+    letter-spacing: 2px;
+}
+h1{
+    font-size: 91px;
+    margin-top: -28px;
+    margin-left: 40px;
+    width: 100%;
+}
+.slash{
+    background-color: white;
+    height: 100px;
+    width:1px;
+}
+.hero2{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left: 40px;
+    
+}
+.CTA-button{
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px blue;
+    border: none;
+    outline: none;
+    color: #1e7eef;
+    font-size: 14px;
+    font-weight: bolder;
+    border-bottom: 1px solid #1e7eef ;
+    border-right: 1px solid #1e7eef ;
+    margin-left: 190px;
+    
+}
+.CTA{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+    padding-right: 275px;
+    box-sizing: border-box;
+    margin-top: -600px;
+z-index: 200;  
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-left: 70px;
+    
+    
+    
+    
+}
+.CTA-text{
+    color: chocolate;
+    font-weight: bolder;
+    margin-left: -20px;
+}
+.hero{
+    margin-top: 40px;
+    width: 50%;
+    z-index: 99;   
+}
+.contacts{
+    position: absolute;
+    z-index: 200;
+    top: 550px;
+    display: flex;
+    margin-top: 70px;
+    margin-left: 20px;
+           
+}
+.contacts-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fa-brands{
+    transform: scale(1.5);
+    margin-inline:20px;
+}
+
+.icons:hover{
+    border-bottom: none;
+        transform: scaleX(1.09);
+    font-size: larger;
+}
+
+html, body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  
+    
+}
+
+@media(max-width : 480px) {
+    
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    body,html{
+        overflow-y: scroll;
+    }
+    
+    #home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100px;
+        
+        width: 100%;
+        
+        
+    }
+    
+    .first-links{
+        display: none;
+        
+        
+    }
+    
+    .firmname{
+        font-size: 25px;
+    }
+    
+    .button1{
+        margin-right: -130px;
+        width: 100px;
+        height:40px;
+        font-size: 11.5px;
+    }
+    
+    .hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-right: 80px
+        
+        
+        
+        
+
+    }
+    
+    .hero1{
+        margin-top:-10px; 
+        font-size: 15px;
+        z-index: 1;
+        margin-left: -430px;
+        
+    }
+    
+    .hero-img{
+        width: 600px;
+        margin-right: 300px;
+    }
+    
+    .hero-img>img{
+        width: 100%;
+        height: 450px;
+        
+    }
+    
+    h1{
+        font-size: 30px;
+        margin-top: 10px;
+        margin-left: -250px;
+        width: 100%;
+        
+    }
+    .hero2{
+        margin-left: -1px;
+        font-size: small;
+        display: none;
+    }
+    
+    .CTA-button{
+font-size: 11px;
+        width: 130px;
+        height: 40px;
+    }
+    
+    .CTA-button:hover{
+        transform: scaleX(1.09);
+        font-size: 9px;
+    }
+    
+    .CTA{
+        
+        font-size: small;
+        margin-top: -60px; 
+        display: flex;
+        justify-content: space-between;
+ 
+        margin-left: -300px ;
+        
+    
+    }
+    
+    .CTA-text{
+     font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: none;
+    }
+    
+    
+    .contacts-list{
+        margin-top: -70px;
+        font-size: small;
+        
+    }
+    
+    .icons:hover{
+        border-bottom:none;
+        transform: scaleX(1.09);
+        font-size: 15px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+}
+
